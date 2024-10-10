@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 10 02:45:08 GMT 2024","Thu Oct 10 02:45:22 GMT 2024","14575","Cadastro de cliente","","","","","Realizar cadastro de cliente",""
+"passed","Thu Oct 10 02:46:10 GMT 2024","Thu Oct 10 02:46:10 GMT 2024","22","Login com credenciais invalidas","","","","","Login não deve ser realizado e deve ser apresentado uma mensagem informando que as credenciais são inválidas",""
+"failed","Thu Oct 10 02:45:27 GMT 2024","Thu Oct 10 02:46:03 GMT 2024","35692","Cadastro de produtos","","","","","Realizar cadastro de produto valido informando o vinculo fiscal",""
+"failed","Thu Oct 10 02:46:14 GMT 2024","Thu Oct 10 02:46:47 GMT 2024","32993","Realizar venda","","","","","Realizar venda com sucesso",""
+"passed","Thu Oct 10 02:46:05 GMT 2024","Thu Oct 10 02:46:10 GMT 2024","5249","Login com credenciais validas","","","","","Login deve ser realizado com sucesso usando credenciais validas",""
