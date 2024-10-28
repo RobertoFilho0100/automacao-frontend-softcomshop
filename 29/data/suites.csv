@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 28 17:51:09 GMT 2024","Mon Oct 28 17:51:09 GMT 2024","20","Login com credenciais invalidas","","","","","Login não deve ser realizado e deve ser apresentado uma mensagem informando que as credenciais são inválidas",""
+"skipped","Mon Oct 28 17:50:59 GMT 2024","Mon Oct 28 17:50:59 GMT 2024","29","Testar Debounce no Autocomplete","","","","","Deve contar as requisições de autocomplete",""
+"failed","Mon Oct 28 17:51:11 GMT 2024","Mon Oct 28 17:51:56 GMT 2024","44812","Realizar venda","","","","","Realizar venda com sucesso",""
+"passed","Mon Oct 28 17:50:29 GMT 2024","Mon Oct 28 17:50:57 GMT 2024","28435","Cadastro de produtos","","","","","Realizar cadastro de produto valido informando o vinculo fiscal",""
+"passed","Mon Oct 28 17:51:02 GMT 2024","Mon Oct 28 17:51:09 GMT 2024","7444","Login com credenciais validas","","","","","Login deve ser realizado com sucesso usando credenciais validas",""
+"passed","Mon Oct 28 17:49:57 GMT 2024","Mon Oct 28 17:50:24 GMT 2024","27599","Cadastro de cliente","","","","","Realizar cadastro de cliente",""
