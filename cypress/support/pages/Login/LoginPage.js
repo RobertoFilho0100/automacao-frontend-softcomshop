@@ -7,7 +7,6 @@ class LoginPage {
     }
   
     preencherCredenciais(username, password) {
-      cy.percySnapshot();
       cy.get(LoginLocators.usernameInput).clear().type(username);  
       cy.get(LoginLocators.passwordInput).clear().type(password);  
     }

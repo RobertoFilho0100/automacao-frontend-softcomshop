@@ -4,7 +4,6 @@ class ClientePage {
     }
   
     preencherCamposCliente(cliente) {
-      cy.percySnapshot();
       cy.get('#cpf_cnpj')
         .click()
         .type(cliente.cpf);
