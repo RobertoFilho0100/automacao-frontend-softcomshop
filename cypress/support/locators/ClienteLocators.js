@@ -1,7 +1,7 @@
 const ClienteLocators = {
-    usernameInput: '#login-email',
-    passwordInput: '#login-senha',
-    loginButton: '#login-acessar',
+    documentInput: '#cpf_cnpj',
+    clientNameinput: '#nome',
+    btnSalvar: '#btn-salvar',
     errorMessage: '#login-erro'
   };
   

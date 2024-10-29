@@ -1,17 +1,19 @@
+import ClienteLocators from "../../locators/ClienteLocators";
+
 class ClientePage {
     visit() {
       cy.visit('/cadastro/cliente/novo');
     }
   
     preencherCamposCliente(cliente) {
-      cy.get('#cpf_cnpj')
+      cy.get(ClienteLocators.documentInput)
         .click()
         .type(cliente.cpf);
-      cy.get('#nome').type(String(cliente.nome, { parseSpecialCharSequences: false }));
+      cy.get(ClienteLocators.clientNameinput).type(String(cliente.nome, { parseSpecialCharSequences: false }));
     }
   
     cadastrar() {
-      cy.get('#btn-salvar').click();
+      cy.get(ClienteLocators.btnSalvar).click();
     }
 
     confirmacaoCadastroCliente() {
